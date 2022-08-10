@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="955.07246376811599" y="68.973214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="Ryw-Lh-hlz">
             <objects>
-                <viewController id="cLO-sU-fQf" sceneMemberID="viewController">
+                <viewController id="cLO-sU-fQf" customClass="MainViewController" customModule="Cred_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CRm-W7-fOl">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

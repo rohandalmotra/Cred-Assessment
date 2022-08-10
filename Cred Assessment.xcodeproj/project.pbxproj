@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B12620D28A379CD004BF95E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12620C28A379CD004BF95E /* MainViewController.swift */; };
+		4B12621328A37A77004BF95E /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12621228A37A77004BF95E /* Brain.swift */; };
+		4B12621528A37A8A004BF95E /* SuccessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12621428A37A8A004BF95E /* SuccessData.swift */; };
+		4B12621728A37A9D004BF95E /* ConstantValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12621628A37A9D004BF95E /* ConstantValue.swift */; };
 		4B941EE228A371ED0023FE83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B941EE128A371ED0023FE83 /* AppDelegate.swift */; };
 		4B941EE428A371ED0023FE83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B941EE328A371ED0023FE83 /* SceneDelegate.swift */; };
 		4B941EE628A371ED0023FE83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B941EE528A371ED0023FE83 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B12620C28A379CD004BF95E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B12621228A37A77004BF95E /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		4B12621428A37A8A004BF95E /* SuccessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessData.swift; sourceTree = "<group>"; };
+		4B12621628A37A9D004BF95E /* ConstantValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValue.swift; sourceTree = "<group>"; };
 		4B941EDE28A371ED0023FE83 /* Cred Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cred Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B941EE128A371ED0023FE83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B941EE328A371ED0023FE83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B12621028A37A1E004BF95E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B941EE728A371ED0023FE83 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B12621128A37A27004BF95E /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				4B12620C28A379CD004BF95E /* MainViewController.swift */,
+				4B941EE528A371ED0023FE83 /* ViewController.swift */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		4B12621828A37AA5004BF95E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B12621628A37A9D004BF95E /* ConstantValue.swift */,
+				4B12621228A37A77004BF95E /* Brain.swift */,
+				4B12621428A37A8A004BF95E /* SuccessData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4B941ED528A371ED0023FE83 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +93,9 @@
 			children = (
 				4B941EE128A371ED0023FE83 /* AppDelegate.swift */,
 				4B941EE328A371ED0023FE83 /* SceneDelegate.swift */,
-				4B941EE528A371ED0023FE83 /* ViewController.swift */,
-				4B941EE728A371ED0023FE83 /* Main.storyboard */,
+				4B12621828A37AA5004BF95E /* Models */,
+				4B12621028A37A1E004BF95E /* Views */,
+				4B12621128A37A27004BF95E /* Contollers */,
 				4B941EEA28A371F30023FE83 /* Assets.xcassets */,
 				4B941EEC28A371F30023FE83 /* LaunchScreen.storyboard */,
 				4B941EEF28A371F30023FE83 /* Info.plist */,
@@ -139,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B941EE628A371ED0023FE83 /* ViewController.swift in Sources */,
+				4B12621528A37A8A004BF95E /* SuccessData.swift in Sources */,
 				4B941EE228A371ED0023FE83 /* AppDelegate.swift in Sources */,
+				4B12621728A37A9D004BF95E /* ConstantValue.swift in Sources */,
 				4B941EE428A371ED0023FE83 /* SceneDelegate.swift in Sources */,
+				4B12621328A37A77004BF95E /* Brain.swift in Sources */,
+				4B12620D28A379CD004BF95E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

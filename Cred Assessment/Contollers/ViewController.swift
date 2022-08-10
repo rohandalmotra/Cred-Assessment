@@ -1,6 +1,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var logoImage: UIImageView!
     
     override func viewDidLoad() {
@@ -10,7 +11,6 @@ class ViewController: UIViewController {
             self.animate()
         })
     }
-    
     
     func animate(){
         UIImageView.animate(withDuration: 0.75, animations: {
