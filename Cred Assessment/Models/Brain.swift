@@ -1,6 +1,6 @@
 //
 //  Brain.swift
-//  CRED Problem statement
+//  CRED Assessment
 //
 //  Created by Rohan Dalmotra on 26/07/22.
 //
@@ -35,7 +35,7 @@ struct Brain{
             let task = session.dataTask(with: url) { data, response, error in
                 
                 if let safeData = data{
-//                    print(safeData)
+                    //                    print(safeData)
                     if let dataStatus = parseJSON(safeData){
                         delegate?.didGetSuccess(status: dataStatus)
                     }

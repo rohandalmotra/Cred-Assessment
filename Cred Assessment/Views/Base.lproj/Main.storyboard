@@ -53,7 +53,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pca-ML-t7M">
                                 <rect key="frame" x="20" y="54" width="388" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCs-2q-rhf" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCs-2q-rhf">
                                         <rect key="frame" x="40" y="312" width="308" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="mCv-ce-JX1"/>
@@ -80,7 +80,7 @@
                                             <constraint firstAttribute="width" constant="160" id="i80-1h-ZEM"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⌄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzg-Cv-xtK" customClass="FlashingLabel" customModule="FlashingLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⌄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzg-Cv-xtK">
                                         <rect key="frame" x="90" y="197" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="1dZ-U9-pcd"/>
@@ -119,6 +119,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mWk-0r-IGq"/>
+                    <connections>
+                        <outlet property="circleImage" destination="jZr-tf-ZKS" id="MmK-FS-VDd"/>
+                        <outlet property="credImage" destination="ZfX-ym-DV3" id="pi4-9D-OoF"/>
+                        <outlet property="pointerLabel" destination="nzg-Cv-xtK" id="7xs-M6-BQz"/>
+                        <outlet property="textLabel" destination="pCs-2q-rhf" id="g7v-ls-IyD"/>
+                        <outlet property="upperView" destination="pca-ML-t7M" id="ntT-Cj-chl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fU-MU-ObN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
